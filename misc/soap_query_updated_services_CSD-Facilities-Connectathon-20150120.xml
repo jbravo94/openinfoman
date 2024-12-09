@@ -1,0 +1,15 @@
+<soap:Envelope xmlns:csd="urn:ihe:iti:csd:2013" xmlns:wsa="http://www.w3.org/2005/08/addressing" xmlns:soap="http://www.w3.org/2003/05/soap-envelope">
+  <soap:Header>
+    <wsa:Action soap:mustUnderstand="1">urn:ihe:iti:csd:2013:GetDirectoryModificationsRequest</wsa:Action>
+    <wsa:MessageID>urn:uuid:d6d9e09c-a7a6-4bdc-90ce-cf6eed0fe5cc</wsa:MessageID>
+    <wsa:ReplyTo soap:mustUnderstand="1">
+      <wsa:Address>http://www.w3.org/2005/08/addressing/anonymous</wsa:Address>
+    </wsa:ReplyTo>
+    <wsa:To soap:mustUnderstand="1">/CSD/getUpdatedServices/CSD-Facilities-Connectathon-20150120/get</wsa:To>
+  </soap:Header>
+  <soap:Body>
+    <csd:getModificationsRequest>
+      <csd:lastModified>2009-12-09T17:05:06Z</csd:lastModified>
+    </csd:getModificationsRequest>
+  </soap:Body>
+</soap:Envelope>

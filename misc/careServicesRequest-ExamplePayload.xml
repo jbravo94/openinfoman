@@ -1,0 +1,10 @@
+<csd:careServicesRequest xmlns:csd="urn:ihe:iti:csd:2013" > 
+    <csd:function urn='urn:ihe:iti:csd:2014:stored-function:facility-search'>
+        <csd:requestParams xmlns:csd='urn:ihe:iti:csd:2013'>
+            <csd:address>
+                <csd:addressLine component='city'>Rio Rancho</csd:addressLine>
+            </csd:address>
+            <csd:max>5</csd:max>
+        </csd:requestParams>
+    </csd:function> 
+</csd:careServicesRequest>

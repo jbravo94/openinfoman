@@ -1,0 +1,1 @@
+curl --header "Content-Type: text/xml;charset=UTF-8" --header "SOAPAction:Get" --data @soap_query_updated_services_CSD-Facilities-Connectathon-20150120.xml http://localhost:8984/CSD/getUpdatedServices/CSD-Facilities-Connectathon-20150120/get

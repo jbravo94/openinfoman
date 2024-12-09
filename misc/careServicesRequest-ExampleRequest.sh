@@ -1,0 +1,1 @@
+curl -X POST http://localhost:8984/CSD/csr/CSD-Facilities-Connectathon-20150120/careServicesRequest --header "Content-Type: application/xml" -d @careServicesRequest-ExamplePayload.xml
